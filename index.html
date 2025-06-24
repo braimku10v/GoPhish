@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Проверка на фишинг</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: #f2f4f8;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      text-align: center;
+      color: #2d2d2d;
+    }
+
+    .container {
+      background: white;
+      padding: 40px 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+      max-width: 500px;
+    }
+
+    h1 {
+      color: #d63031;
+      font-size: 28px;
+      margin-bottom: 20px;
+    }
+
+    p {
+      font-size: 16px;
+      margin: 10px 0;
+    }
+
+    .warning-icon {
+      font-size: 60px;
+      color: #d63031;
+      margin-bottom: 20px;
+    }
+
+    .footer {
+      margin-top: 30px;
+      font-size: 13px;
+      color: #888;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="warning-icon">⚠️</div>
+    <h1>Вы попались на фишинговую атаку</h1>
+    <p>Этот сайт был частью симулированной фишинговой атаки, проводимой в целях повышения информационной безопасности вашей организации.</p>
+    <p>Пожалуйста, будьте внимательны при получении электронных писем, особенно содержащих подозрительные ссылки или просьбы ввести личные данные.</p>
+    <div class="footer">Если у вас есть вопросы — обратитесь в сектор информационной безопасности.</div>
+  </div>
+</body>
+</html>
